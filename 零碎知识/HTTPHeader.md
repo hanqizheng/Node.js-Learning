@@ -1,20 +1,7 @@
-# 2018-07-05 日报
+# http 协议之Header的学习
 
-## 主要学习内容
-- JS 基础知识
-- http协议基础知识
-- chrome f12调试 之 Network
+2018-07-05
 
-
-## http
-
-**‘#’后的字符** 　　
-在第一个#后面出现的任何字符，都会被浏览器解读为位置标识符。这意味着，这些字符都不会被发送到服务器端。 比如，下面URL的原意是指定一个颜色值：http://www.example.com/?color=#fff， 但是，浏览器实际发出的请求是：
-
-```
-GET /?color= HTTP/1.1
-Host: www.example.com
-```
 ## http的Header
 - #### General
 只给出样例和常用的几个parameters的解释（其实是太多了....)
@@ -65,5 +52,3 @@ User-Agent:用户设备
 
 ## chrome 调试
 这个还要在继续学习，上述获取的三个头的各个信息就是通过调试的Network模块获取的。
-
-
