@@ -10,21 +10,21 @@ console 模块提供了一个简单的调试控制台，类似于 Web 浏览器�
 
 说到console肯定要说到console.log()!!!调试神器
 
-```
+```js
 console.log('我要输出一个东西');
 
 //我要输出一个东西
 ```
 
 一些别的用法
-```
+```js
 const count = 5;
 console.log('count: %d', count);
 
 //count: 5
 ```
 与上述同等效果的
-```
+```js
 const count = 5;
 console.log('count:', count);
 
@@ -38,7 +38,7 @@ console.log()的别名，效果一样。
 
 输出错误信息的
 
-```
+```js
 console.error(new Error('错误！！'));
 
 Error: 错误！！
@@ -57,7 +57,7 @@ Error: 错误！！
 
 输出警告信息
 
-```
+```js
 /home/hqz/test/httpTest.js:2
 myConsole.warn(`警告${name}`);
 ^

@@ -19,7 +19,7 @@ Status Code: 状态码 表示成功失败之类的（404 502）
 
 - #### Request Header
 
-```
+```http
 cache-control: public, max-age=3600
 content-encoding: gzip
 content-length: 1106
@@ -42,7 +42,7 @@ cache-control:缓存控制方式，比较常用的有private 和 public.
 
 - #### Response Header
 
-```
+```http
 If-Modified-Since: Thu, 05 Jul 2018 09:50:32 GMT
 Referer: https://blog.csdn.net/alanlzz/article/details/72846718
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36
