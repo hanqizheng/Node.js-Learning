@@ -126,5 +126,114 @@ post body is: name=hanqizheng&age=22
 ## http.response
 一个web服务程序，接受到来自客户端的http请求后，向客户端返回正确的响应内容，这就是`res`的职责。
 
+返回的内容包括：状态代码/状态描述信息、响应头部、响应主体。下文会举几个简单的例子。
+
+```js
+var http = require('http');
+
+// 设置状态码、状态描述信息、响应主体
+var server = http.createServer(function(req, res){
+    res.writeHead(200, 'ok', {
+        'Content-Type': 'text/plain'
+    });
+    res.end('hello');
+});
+
+server.listen(3000);
+```
+### 设置状态代码、状态描述信息
+
+`res`提供了 res.writeHead()、res.statusCode/res.statusMessage 来实现这个目的。
+
+举例，如果想要设置 200/ok ，可以
+
+```js
+res.writeHead(200, 'ok');
+```
+
+也可以
+
+```js
+res.statusCode = 200;
+res.statusMessage = 'ok';
+```
+
+两者差不多，差异点在于
+
+1. res.writeHead() 可以提供额外的功能，比如设置响应头部。
+2. 当响应头部发送出去后，res.statusCode/res.statusMessage 会被设置成已发送出去的 状态代码/状态描述信息。
+
+## http Client(客户端)
+
+### 简单的GET请求
+
+```js
+var http = require('http');
+
+http.get('http://id.qq.com/', function(res){
+    var data = '';
+    res.setEncoding('utf8');
+    res.on('data', function(chunk){
+        data += chunk;
+    });
+    res.on('end', function(){
+        console.log(data);
+    });
+});
+```
+
+### 简单的post请求
+
+在下面例子中，首先创建了个http server，负责将客户端发送过来的数据回传。
+
+接着，创建客户端POST请求，向服务端发送数据。需要注意的点有：
+
+1. method 指定为 POST。
+2. headers 里声明了 content-type 为 application/x-www-form-urlencoded。
+3. 数据发送前，用 querystring.stringify(obj) 对传输的对象进行了格式化。
+
+```js
+var http = require('http');
+var querystring = require('querystring');
+
+var createClientPostRequest = function(){
+    var options = {
+        method: 'POST',
+        protocol: 'http:',
+        hostname: '127.0.0.1',
+        port: '3000',
+        path: '/post',
+        headers: {
+            "connection": "keep-alive",
+            "content-type": "application/x-www-form-urlencoded"
+        }    
+    };
+
+    // 发送给服务端的数据
+    var postBody = {
+        name: 'hanqizheng'
+    };
+
+    // 创建客户端请求
+    var client = http.request(options, function(res){
+        // 最终输出：Server got client data: nick=chyingp
+        res.pipe(process.stdout);  
+    });
+
+    // 发送的报文主体，记得先用 querystring.stringify() 处理下
+    client.write( querystring.stringify(postBody) );
+    client.end();
+};
+
+// 服务端程序，只是负责回传客户端数据
+var server = http.createServer(function(req, res){
+    res.write('Server got client data: ');
+    req.pipe(res);
+});
+
+server.listen(3000, createClientPostRequest);
+```
+
+
 
 
