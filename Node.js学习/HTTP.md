@@ -168,6 +168,7 @@ res.statusMessage = 'ok';
 ### 简单的GET请求
 
 ```js
+//GETResponse.js
 var http = require('http');
 
 http.get('http://id.qq.com/', function(res){
