@@ -102,7 +102,58 @@ class LoginController extends Controller{
 
 module.exports = LoginController;
 ```
-当然我把用户名密码写死了。
+
+## POST方法实现登陆验证
+```js
+//router.js
+'use strict';
+
+const koa = require('koa');
+const app = new koa();
+/**
+ * @param {Egg.Application} app - egg application
+ */
+
+module.exports = app => {
+  const { router, controller } = app;
+  router.get('/', controller.home.index);
+
+  //验证登录
+  router.get('/login', controller.login.check);
+
+  router.post('/login',controller.login.check);
+}
+```
+
+```js
+'use strict';
+
+const Controller = require('egg').Controller;
+const url = require('url');
+const querystring = require('querystring');
+
+class LoginController extends Controller{
+    async check(ctx) {
+
+        this.ctx.body = 'this is login page';
+        //post
+        console.log(ctx.request.body);
+        const username = ctx.request.body.username;
+        const password = ctx.request.body.password;
+
+        console.log(username + ' ' + password);
+
+        if(username == 'hanqizheng' && password == '123'){
+            console.log('successfully');
+            this.ctx.body = 'login successfully!';
+        }
+
+    }
+}
+
+module.exports = LoginController;
+```
+> 当然我把用户名密码写死了。
 
 ## setCookie
 koa或者egg可以很方便的设置cookies
