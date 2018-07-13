@@ -23,10 +23,10 @@
 *  [Cluster](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/Cluster.md)
 *  [Console](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/Console.md)
 *  [DNS](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/DNS.md)
-*  [* Event Emitter](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/EventEmitter.md)
-*  [* Event](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/Events.md)
+*  [Event Emitter](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/EventEmitter.md)
+*  [Event](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/Events.md)
 *  [File System](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/FileSystem.md)
-*  [* HTTP](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/HTTP.md)
+*  [HTTP](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/HTTP.md)
 *  [Zlib](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/zlib.md)
 
 
@@ -41,8 +41,8 @@
 
 ## [Part4 Demo](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B)
 *  [Cluster](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/cluster)
-*  [* Events](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/events)
-*  [* HTTP](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/http)
+*  [Events](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/events)
+*  [HTTP](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/http)
 *  [Zlib](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/koa%2Begg)
 *  [koa + egg](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/zlib)
 
