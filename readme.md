@@ -11,7 +11,7 @@
 
 加油！
 
-# 目录(Menu)
+# 目录
 
 ## [Part1 JS基础Review](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0)
 >Node.js离不开JS，所以要好好巩固JS，这一块多是巩固ES6的相关特性
