@@ -29,7 +29,7 @@
 *  [Event Emitter](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/EventEmitter.md)
 *  [File System](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/FileSystem.md)
 *  [HTTP](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/HTTP.md)
-*  [Stream]()
+*  [Stream](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/Stream.md)
 *  [Zlib](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E6%A8%A1%E5%9D%97/zlib.md)
 
 
@@ -41,6 +41,7 @@
     - [httpHeader](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/http/HTTPHeader.md)
 *  [Koa + Egg](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/koa%26egg)
     - [Koa + Egg 基础入门](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/koa%26egg/Koa%2BEgg%E5%85%A5%E9%97%A8.md)
+*  [模块系统]()
 
 ### [Part4 Demo](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B)
 *  [Cluster](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/cluster)
