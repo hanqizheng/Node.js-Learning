@@ -16,8 +16,8 @@
 ### [Part1 JS基础Review](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0)
 >Node.js离不开JS，所以要好好巩固JS，这一块多是巩固ES6的相关特性
 *  [let&const](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/let%26const.md)
-*  [Set&Map]()
-*  [变量解构赋值]()
+*  [Set&Map](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Set%26Map.md)
+*  [变量解构赋值](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/%E5%8F%98%E9%87%8F%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.md)
 
 
 ### [Part2 Node.js模块](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Node.js%E6%A8%A1%E5%9D%97)
@@ -44,7 +44,7 @@
 *  [Koa + Egg](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/koa%26egg)
     - [Koa + Egg 基础入门](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/koa%26egg/Koa%2BEgg%E5%85%A5%E9%97%A8.md)
 *  [模块系统](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/%E6%A8%A1%E5%9D%97%E7%B3%BB%E7%BB%9F.md)
-*  [JavaScript垃圾回收]()
+*  [JavaScript垃圾回收](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/JacaScript%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.md)
 
 ### [Part4 Demo](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B)
 *  [Cluster](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/cluster)
