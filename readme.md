@@ -45,7 +45,7 @@
     - [Koa + Egg 基础入门](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/koa%26egg/Koa%2BEgg%E5%85%A5%E9%97%A8.md)
 *  [模块系统](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/%E6%A8%A1%E5%9D%97%E7%B3%BB%E7%BB%9F.md)
 *  [JavaScript垃圾回收](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/JacaScript%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6.md)
-*  [JS正则表达式]()
+*  [JS正则表达式](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/JS%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
 
 ### [Part4 Demo](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B)
 *  [Cluster](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/cluster)
