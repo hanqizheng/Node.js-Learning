@@ -19,8 +19,8 @@
 *  [Set&Map](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Set%26Map.md)
 *  [变量解构赋值](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/%E5%8F%98%E9%87%8F%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.md)
 *  [Promise](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Node.js%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/Promise.md)
-*  [Generator]()
-*  [Async]()
+*  [Generator](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Generator.md)
+*  [Async](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Async.md)
 
 
 ### [Part2 Node.js模块](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Node.js%E6%A8%A1%E5%9D%97)
@@ -57,4 +57,4 @@
 *  [Zlib](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/koa%2Begg)
 *  [koa + egg](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/zlib)
 
-### [Part5 待定]()
+### [Part5 待定](https://github.com/hanqizheng)
