@@ -90,7 +90,7 @@ console.log('Hi!');
 ### promise.then()
 promise.then()是啥呢？then是和我们在定义Promise对象的时候所给出的resovle,和reject两个函数有关的，对，你没有看错，**resolve和reject是两个函数！！！**，它们是两个函数，由 JavaScript 引擎提供，不用自己部署。
 
-这两个函数是创建Promise实例的时候构造函数所接受的两个参数，分别代表promise转换的两种状态，resovle表示promise => fullfiled(成功),reject表示promise => reject(失败).
+这两个函数是创建Promise实例的时候构造函数所接受的两个参数，分别代表promise转换的两种状态，resovle表示promise => fulfilled(成功),reject表示promise => reject(失败).
 
 那么说了半天resolve和reject，他们和then有什么关系呢？
 
@@ -129,7 +129,7 @@ function promise(){
 }
 ```
 
-然后，如果成功，就将promise状态转化为fullfiled,也就是用resolve()函数去转换，然后就会触发then()函数对应的回调函数，reject同理！
+然后，如果成功，就将promise状态转化为fulfilled,也就是用resolve()函数去转换，然后就会触发then()函数对应的回调函数，reject同理！
 
 接下来我给出自己测试的一个例子，如果能看着代码理解输出的顺序，说明对Promise基本是理解了。
 ```js

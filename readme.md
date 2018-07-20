@@ -21,6 +21,7 @@
 *  [Promise](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Promise.md)
 *  [Generator](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Generator.md)
 *  [Async](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Async.md)
+*  [Class]()
 
 
 ### [Part2 Node.js模块](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Node.js%E6%A8%A1%E5%9D%97)
