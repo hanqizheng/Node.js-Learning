@@ -61,5 +61,6 @@
 *  [Zlib](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/koa%2Begg)
 *  [koa + egg](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/zlib)
 
-### [Part5 一起来读YDKJS](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS/Scope.md)
+### [Part5 一起来读YDKJS](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS)
+* [start](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS/Start.md)
 * [作用域篇](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS/Scope.md)
