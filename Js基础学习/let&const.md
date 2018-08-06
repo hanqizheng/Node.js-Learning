@@ -6,7 +6,7 @@
 
 ## let 和 const 都没有变量提升
 ```js
-console.log(a);
+console.log(a)
 let a = 6;
 // 报错
 
