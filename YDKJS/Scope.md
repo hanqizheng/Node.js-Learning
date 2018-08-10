@@ -93,3 +93,5 @@ with自身简单理解为创建了一个块作用域。很不推荐使用
 ## let & const
 let 和 const 请阅读[let&const](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/let%26const.md)
 
+## 闭包单独拿出来说吧，这本书说的闭包也是很迷
+

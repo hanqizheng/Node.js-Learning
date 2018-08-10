@@ -6,7 +6,7 @@ let nickNames = {};
 let nameUsed = [];
 let currentRoom = {};
 
-exports.listen = function(server){
+exports.listen = function(server) {
     io = socketio.listen(server);
     io.set('log level',1);
 
@@ -19,10 +19,10 @@ exports.listen = function(server){
 
         handleNameChangeAttempts(socket,nickNames,nameUsed);
 
-        handleRoomJioning(socket);
+        handleRoomJoining(socket);
 
         socket.on('rooms',() => {
-            socket.emit('rooms',io.socket.manager.rooms);
+            socket.emit('rooms',io.sockets.manager.rooms);
         });
 
         handleClientDisconnection(socket,nickNames,nameUsed);
@@ -50,7 +50,7 @@ function joinRoom(socket,room){
         text:nickNames[socket.id] + 'has joined' + room + '.'
     });
 
-    let usersInRoom = io.socket.clients(room);
+    let usersInRoom = io.sockets.clients(room);
 
     //如果不止一个用户在这个房间里，汇总一下都是谁
     if(usersInRoom.length > 1){
