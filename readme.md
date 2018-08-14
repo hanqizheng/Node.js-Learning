@@ -13,7 +13,7 @@
 
 # 目录
 
-## NEW!!!!  [Part5 一起来读YDKJS](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS)
+## NEW!!!!  [Part5 一起来读深入浅出Node.js](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS)
 
 ### [Part1 JS基础Review](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0)
 >Node.js离不开JS，所以要好好巩固JS，这一块多是巩固ES6的相关特性
@@ -25,6 +25,7 @@
 *  [Async](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Async.md)
 *  [Class](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Class.md)
 *  [Symbol](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/Js%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/Symbol.md)
+* [作用域篇](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS/Scope.md)
 
 
 ### [Part2 Node.js模块](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/Node.js%E6%A8%A1%E5%9D%97)
@@ -61,7 +62,6 @@
 *  [Zlib](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/koa%2Begg)
 *  [koa + egg](https://github.com/hanqizheng/Node.js-LearningDialog/tree/master/demo%E6%A0%B7%E4%BE%8B/zlib)
 
-### [Part5 一起来读YDKJS](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS)
->一起探索JS不为人知的一面
-* [start](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS/Start.md)
-* [作用域篇](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS/Scope.md)
+### [Part5 一起来读深入浅出Node.js](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/YDKJS)
+>一起探索Node.js不为人知的一面
+* [异步I/O]]()
