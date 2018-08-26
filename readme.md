@@ -2,10 +2,10 @@
 
 [关于我(待完善)](https://hanqizheng.github.io)
 
-![](https://img.shields.io/badge/dialog-Node.js-brightgreen.svg) 
-![](https://img.shields.io/badge/update-perday-red.svg)
-![](https://img.shields.io/badge/level-freshman-blue.svg)
-![](https://img.shields.io/badge/Thanks-STAR-yellow.svg)
+![](https://img.shields.io/badge/dialog-Node.js-brightgreen.svg?longCache=true&style=popout-square) 
+![](https://img.shields.io/badge/update-perday-red.svg?longCache=true&style=popout-square)
+![](https://img.shields.io/badge/level-freshman-blue.svg?longCache=true&style=popout-square)
+![](https://img.shields.io/badge/Thanks-STAR-yellow.svg?longCache=true&style=popout-square)
 
 **不要忘记star一下，先谢过了。**
 
