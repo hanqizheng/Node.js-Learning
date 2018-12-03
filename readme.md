@@ -67,6 +67,6 @@
 > 一起探索Node.js不为人知的一面
 * [异步I/O](https://github.com/hanqizheng/Node.js-LearningDialog/blob/master/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BANode.js/%E5%BC%82%E6%AD%A5IO.md)
 
-### [Part6 番外]()
+### [Part6 番外](https://github.com/hanqizheng/Node.js-Learning/tree/master/%E7%95%AA%E5%A4%96)
 > 偷偷补课
-* [Grunt & Gulp 基础]()
+* [Grunt & Gulp 基础](https://github.com/hanqizheng/Node.js-Learning/blob/master/%E7%95%AA%E5%A4%96/grun%26gulp.md)
