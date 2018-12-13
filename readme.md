@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/level-freshman-blue.svg?longCache=true&style=popout-square)
 ![](https://img.shields.io/badge/Thanks-STAR-yellow.svg?longCache=true&style=popout-square)
 
-**不要忘记star一下，先谢过了。**
+**不要忘记star一下**
 
 加油！
 
