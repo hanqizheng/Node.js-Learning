@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+  </head>
+  <body onload="init();">
+    <canvas id="demoCanvas" width="5000" height="3000"></canvas>
+  </body>
+
+  <script>
+
+    var stage;
+    function init() {
+      stage = new createjs.Stage("demoCanvas");
+      stage.addEventListener('stagemouseup', handleMouseUp)
+    }
+    
+
+    function handleMouseUp() {
+      const circle = new createjs.Shape();
+      circle.graphics.beginFill("#a000a0").drawCircle(0, 0, 30);
+      circle.x = stage.mouseX;
+      circle.y = stage.mouseY;
+      stage.addChild(circle);
+
+      createjs.Tween.get(circle, { override: true })
+        .to({ scaleX: 3.5, scaleY: 3.5}, 500, createjs.Ease.bounceOut)
+        // .to({ scaleX: -0.5, scaleY: -0.5}, 100, createjs.Ease.bounceOut);
+        .to({ alpha: 0 }, 200, createjs.Ease.bounceOut);
+      
+      createjs.Ticker.setFPS(60);
+      createjs.Ticker.addEventListener("tick", stage);
+    }
+  </script>
+</html>

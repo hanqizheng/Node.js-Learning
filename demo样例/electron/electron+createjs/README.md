@@ -1,0 +1,3 @@
+# 这是一个electron + createjs 实现的在canvas上鼠标点击，即可在点击位置绘制一个带有动画效果的圆
+
+如果想使用就创建一个空的electron项目然后把index.html替换掉即可
