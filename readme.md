@@ -74,3 +74,4 @@
 ### [Part6 番外](https://github.com/hanqizheng/Node.js-Learning/tree/master/%E7%95%AA%E5%A4%96)
 > 偷偷补课
 * [Grunt & Gulp 基础](https://github.com/hanqizheng/Node.js-Learning/blob/master/%E7%95%AA%E5%A4%96/grun%26gulp.md)
+* [package-lock.json](https://github.com/hanqizheng/Node.js-Learning/blob/master/%E7%95%AA%E5%A4%96/package-lock.md)
